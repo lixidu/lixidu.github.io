@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 16:16:58 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Howtosolvetheproblemofthemeconfiguration</title>
+      <link>/posts/howtosolvetheproblemofthemeconfiguration/</link>
+      <pubDate>Fri, 30 Jun 2023 16:16:58 +0800</pubDate>
+      
+      <guid>/posts/howtosolvetheproblemofthemeconfiguration/</guid>
+      <description>
+        
+          
+            解决新主题配置问题 安装的主题事例 kakawait主题 github库链接https://github.com/kakawait/hugo-tranquilpeak-theme
+新site安装theme 创造一个新site后在新site里打开cmd输入
+cd themes git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git 在themes里面的hugo-tranquilpeak-theme文件中的config.toml中复制文件内容于site的hugo.toml文件 然后依据注释进行修改字符串内内容大都可以修改 例：
+[author] name = &amp;#34;Firstname Lastname&amp;#34; bio = &amp;#34;Super bio with markdown support **COOL**&amp;#34; job = &amp;#34;Your job title&amp;#34; location = &amp;#34;France&amp;#34; # Your Gravatar email. Overwrite `author.picture` everywhere in the blog gravatarEmail = &amp;#34;thibaud.lepretre@gmail.com&amp;#34; # Your profile picture # Overwritten by your gravatar image if `author.gravatarEmail` is filled picture = &amp;#34;https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png&amp;#34; 改为
+[author] name = &amp;#34;lixidu&amp;#34; bio = &amp;#34;A growing student&amp;#34; job = &amp;#34;Student&amp;#34; location = &amp;#34;China&amp;#34; # Your Gravatar email.
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>FristBlog</title>
+      <link>/posts/fristblog/</link>
+      <pubDate>Fri, 30 Jun 2023 16:11:52 +0800</pubDate>
+      
+      <guid>/posts/fristblog/</guid>
+      <description>
+        
+          
+            The Frsit one blog
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
